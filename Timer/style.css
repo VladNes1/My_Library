@@ -8,46 +8,21 @@
     max-width: 1100px
 }
 
-.promotion .bgc_y {
-    position: absolute;
-    width: 50%;
-    height: 499px;
-    background: rgba(243, 255, 222, .35);
-    z-index: -1;
-    top: -50px;
-    left: 0
-}
-
-.promotion__text {
-    width: 50%
-}
-
-.promotion__descr {
-    margin-top: 40px;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 300
-}
-
-.promotion__descr span {
-    font-weight: 700;
-    font-size: 26px
-}
-
 .promotion__timer {
-    width: 50%
+    margin: 0 auto;
+    width: 50%;
+    background-color: blanchedalmond;
 }
 
 .promotion__timer .title {
-    text-align: right
+    text-align: center;
 }
 
 .promotion__timer .timer {
-    margin-top: 60px;
-    padding-left: 95px;
+    margin: 60px auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center
+    align-items: center;
+    justify-content: center;
 }
 
 .promotion__timer .timer__block {
