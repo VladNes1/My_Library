@@ -1,0 +1,16 @@
+body {
+    background: black;
+}
+
+div p {
+    display: block;
+    width: 700px;
+    height: 1000px;
+    background-image: url("./foto.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 12px;
+}
